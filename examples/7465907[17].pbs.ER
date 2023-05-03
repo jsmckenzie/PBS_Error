@@ -1,0 +1,18 @@
+{Error using matlab.internal.math.interp1
+Interpolation requires at least two sample points for each grid dimension.
+
+Error in interp1 (line 188)
+        VqLite = matlab.internal.math.interp1(X,V,method,method,Xqcol);
+
+Error in Octopus.interpolate (line 362)
+            z = interp1(x(mask),y(mask),mzVec);
+
+Error in Octopus/calcPCA (line 57)
+            [z] = obj.interpolate(vecX,vecY,mzVec);
+
+Error in REIMS_HPC (line 85)
+oo = oo.calcPCA(oo.mask,0.1,oo.mzRange);
+
+Error in REIMS_Array (line 52)
+    REIMS_HPC(filePath,fileNames{n},savePath);
+} 
