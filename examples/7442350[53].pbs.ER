@@ -1,6 +1,0 @@
-{Error using REIMS_HPC (line 21)
-Size not determined correctly; review manually
-
-Error in REIMS_Array (line 52)
-    REIMS_HPC(filePath,fileNames{n},savePath);
-} 

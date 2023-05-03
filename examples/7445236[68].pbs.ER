@@ -1,5 +1,0 @@
-{Index exceeds the number of array elements (63).
-
-Error in REIMS_Array (line 51)
-    disp(fileNames{n});
-} 
