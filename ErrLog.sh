@@ -28,7 +28,7 @@ do
 done
 
 # List of all files (use job flag to trim as required)
-allF=$(find "$filePath" -name '*.ER' | grep "$job")
+allF=$(find "$filePath" -name '*.ER' | grep "$job" | sort -z)
 
 # Create an empty megafile
 touch "$outPath"
@@ -39,7 +39,7 @@ for FILE in $allF
 do  
     # File contents
     fc=$(cat $FILE)
-
+    
     # Split path and name
     thisPath=$(dirname "$FILE")
     thisName=$(basename "$FILE")
