@@ -7,9 +7,9 @@ test1="tests/Test_Full.csv"
 test2="tests/Test_744.csv"
 test3="tests/Test_Array4.csv"
 
-cmp1="testResults/Test_Full.csv"
-cmp2="testResults/Test_744.csv"
-cmp3="testResults/Test_Array4.csv"
+cmp1="tmp/Test_Full.csv"
+cmp2="tmp/Test_744.csv"
+cmp3="tmp/Test_Array4.csv"
 
 # Result counter
 res=0
