@@ -27,8 +27,7 @@ jobs:
 
       # Run the tests
       - name: "Run tests"
-        run: bash tests.sh
-
-      # Runs a set of commands using the runners shell
-      - name: "Evaluate results"
-        run: bash testResults.sh
+        run: |
+          bash tests.sh
+          bash testResults.sh
+         
