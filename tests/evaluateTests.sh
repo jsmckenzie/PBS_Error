@@ -14,14 +14,6 @@ cmp3="testResults/Test_Array4.csv"
 # Result counter
 res=0
 
-# Show if the files have been created
-echo "Test Files"
-ls tests/
-
-echo "Result Files"
-ls testResults/
-
-
 # File 1 (full file)
 if cmp --silent -- "$test1" "$cmp1"; then
   echo "Test 1 PASS"
