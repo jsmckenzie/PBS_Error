@@ -21,6 +21,7 @@ ls tests/
 echo "Result Files"
 ls testResults/
 
+
 # File 1 (full file)
 if cmp --silent -- "$test1" "$cmp1"; then
   echo "Test 1 PASS"
