@@ -15,6 +15,10 @@ cmp3="testResults/Test_Array4.csv"
 res=0
 
 # Show if the files have been created
+echo "Test Files"
+ls tests/
+
+echo "Result Files"
 ls testResults/
 
 # File 1 (full file)
