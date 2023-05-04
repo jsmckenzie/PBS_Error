@@ -14,7 +14,7 @@ cmp3="testResults/Test_Array4.csv"
 # Result counter
 res=0
 
-ls
+# Show if the files have been created
 ls testResults/
 
 # File 1 (full file)
