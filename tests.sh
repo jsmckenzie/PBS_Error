@@ -3,7 +3,7 @@
 # Run a series of tests with different commands, in order to ensure that the
 # function works as expected
 
-mkdir testResults/
+mkdir testResults
 
 # All files
 bash ErrLog.sh -P examples -O testResults/Test_Full.csv
