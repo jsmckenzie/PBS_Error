@@ -1,8 +1,10 @@
 Path,File,Job,Array,Error
-"examples","7442350[4].pbs.ER","7442350","4","Error!"
-"examples","7442350[1].pbs.ER","7442350","1","=>> PBS: job killed: mem 80345524kb exceeded limit 67108864kb"
-"examples/7440554","7440554[24].pbs.ER","7440554","24",""
 "examples/7440554","7440554[22].pbs.ER","7440554","22","=>> PBS: job killed: mem 82332616kb exceeded limit 67108864kb"
+"examples/7440554","7440554[24].pbs.ER","7440554","24",""
+"examples","7442350[1].pbs.ER","7442350","1","=>> PBS: job killed: mem 80345524kb exceeded limit 67108864kb"
+"examples","7442350[2].pbs.ER","7442350","2","{Error using reshape
+Number of elements must not change. Use [] as one of the size inputs to automatically calculate the appropriate size for that dimension.
+}"
 "examples","7442350[3].pbs.ER","7442350","3","{Error using h5readc
 The filename specified was either not found on the MATLAB path or it contains unsupported characters.
 
@@ -10,7 +12,5 @@ Error in h5read (line 93)
 [data,var_class] = h5readc(Filename,Dataset,start,count,stride);
 
 } "
-"examples","7442350[2].pbs.ER","7442350","2","{Error using reshape
-Number of elements must not change. Use [] as one of the size inputs to automatically calculate the appropriate size for that dimension.
-}"
+"examples","7442350[4].pbs.ER","7442350","4","Error!"
 "examples","7442350[5].pbs.ER","7442350","5","=>> PBS: job killed: mem 68478884kb exceeded limit 67108864kb"

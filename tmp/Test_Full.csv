@@ -1,11 +1,21 @@
 Path,File,Job,Array,Error
-"examples","7999999.pbs.ER","7999999","","=>> PBS: job killed: mem 170329432kb exceeded limit 134217728kb"
-"examples","7442350[4].pbs.ER","7442350","4","Error!"
-"examples","7442350[1].pbs.ER","7442350","1","=>> PBS: job killed: mem 80345524kb exceeded limit 67108864kb"
-"examples/7440554","7440554[24].pbs.ER","7440554","24",""
 "examples/7440554","7440554[22].pbs.ER","7440554","22","=>> PBS: job killed: mem 82332616kb exceeded limit 67108864kb"
+"examples/7440554","7440554[24].pbs.ER","7440554","24",""
+"examples","7442350[1].pbs.ER","7442350","1","=>> PBS: job killed: mem 80345524kb exceeded limit 67108864kb"
+"examples","7442350[2].pbs.ER","7442350","2","{Error using reshape
+Number of elements must not change. Use [] as one of the size inputs to automatically calculate the appropriate size for that dimension.
+}"
 "examples","7442350[3].pbs.ER","7442350","3","{Error using h5readc
 The filename specified was either not found on the MATLAB path or it contains unsupported characters.
+
+Error in h5read (line 93)
+[data,var_class] = h5readc(Filename,Dataset,start,count,stride);
+
+} "
+"examples","7442350[4].pbs.ER","7442350","4","Error!"
+"examples","7442350[5].pbs.ER","7442350","5","=>> PBS: job killed: mem 68478884kb exceeded limit 67108864kb"
+"examples/7465907","7465907[10].pbs.ER","7465907","10","{Error using h5readc
+The START, COUNT, and STRIDE parameters must be double precision, positive, and have length equal to the rank of the dataset.
 
 Error in h5read (line 93)
 [data,var_class] = h5readc(Filename,Dataset,start,count,stride);
@@ -24,22 +34,6 @@ Interpolation requires at least two sample points for each grid dimension.
 Error in interp1 (line 188)
         VqLite = matlab.internal.math.interp1(X,V,method,method,Xqcol);
 } "
-"examples/7465907","7465907[44].pbs.ER","7465907","44",""
-"examples/7465907","7465907[8].pbs.ER","7465907","8","{Error using h5readc
-The START, COUNT, and STRIDE parameters must be double precision, positive, and have length equal to the rank of the dataset.
-
-Error in h5read (line 93)
-[data,var_class] = h5readc(Filename,Dataset,start,count,stride);
-} "
-"examples/7465907","7465907[10].pbs.ER","7465907","10","{Error using h5readc
-The START, COUNT, and STRIDE parameters must be double precision, positive, and have length equal to the rank of the dataset.
-
-Error in h5read (line 93)
-[data,var_class] = h5readc(Filename,Dataset,start,count,stride);
-
-} "
-"examples/7465907","7465907[46].pbs.ER","7465907","46",""
-"examples/7465907","7465907[45].pbs.ER","7465907","45",""
 "examples/7465907","7465907[20].pbs.ER","7465907","20","{Error using h5readc
 The START, COUNT, and STRIDE parameters must be double precision, positive, and have length equal to the rank of the dataset.
 
@@ -47,6 +41,8 @@ Error in h5read (line 93)
 [data,var_class] = h5readc(Filename,Dataset,start,count,stride);
 
 } "
+"examples/7465907","7465907[24].pbs.ER","7465907","24","=>> PBS: job killed: mem 170329432kb exceeded limit 134217728kb"
+"examples/7465907","7465907[28].pbs.ER","7465907","28","Generic error message "
 "examples/7465907","7465907[34].pbs.ER","7465907","34","{Error using h5readc
 The START, COUNT, and STRIDE parameters must be double precision, positive, and have length equal to the rank of the dataset.
 
@@ -54,10 +50,14 @@ Error in h5read (line 93)
 [data,var_class] = h5readc(Filename,Dataset,start,count,stride);
 
 } "
-"examples/7465907","7465907[28].pbs.ER","7465907","28","Generic error message "
+"examples/7465907","7465907[44].pbs.ER","7465907","44",""
+"examples/7465907","7465907[45].pbs.ER","7465907","45",""
+"examples/7465907","7465907[46].pbs.ER","7465907","46",""
 "examples/7465907","7465907[5].pbs.ER","7465907","5","=>> PBS: job killed: mem 138753956kb exceeded limit 134217728kb"
-"examples/7465907","7465907[24].pbs.ER","7465907","24","=>> PBS: job killed: mem 170329432kb exceeded limit 134217728kb"
-"examples","7442350[2].pbs.ER","7442350","2","{Error using reshape
-Number of elements must not change. Use [] as one of the size inputs to automatically calculate the appropriate size for that dimension.
-}"
-"examples","7442350[5].pbs.ER","7442350","5","=>> PBS: job killed: mem 68478884kb exceeded limit 67108864kb"
+"examples/7465907","7465907[8].pbs.ER","7465907","8","{Error using h5readc
+The START, COUNT, and STRIDE parameters must be double precision, positive, and have length equal to the rank of the dataset.
+
+Error in h5read (line 93)
+[data,var_class] = h5readc(Filename,Dataset,start,count,stride);
+} "
+"examples","7999999.pbs.ER","7999999","","=>> PBS: job killed: mem 170329432kb exceeded limit 134217728kb"
