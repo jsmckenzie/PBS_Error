@@ -25,3 +25,13 @@ The following command
 bash ErrLog.sh -P examples -O testResults/Test_Array4.csv -J '\[4'
 ```
 will search through the `examples` subfolder for filenames containing the `[4` pattern. All matching files are output to the file named `testResults/Test_Array4.csv`.
+
+## Output
+The structure of the output file shows the file name and information, with the final column containing the error text. Where the file is empty (no error!) the entry is left blank.
+
+| Path | File | Job | Array | Error |
+| :-   | :-   | :-  | :-    | :-    |
+| examples | 7442350[4].pbs.ER | 7442350 | 4 | Error text |
+| examples/7465907 | 7465907[44].pbs.ER | 7465907 | 44 |  |
+| ... | ... | ... | ... | ...|
+| | | | | |
