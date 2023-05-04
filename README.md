@@ -8,6 +8,9 @@ PBS array jobs create multiple `.ER` files on failure. So rather than opening ea
 
 * * *
 
+## Input files
+The expected file names are typically `<job number>[<array number>].pbs.ER` such as `7442350[1].pbs.ER` or for non-array jobs `7442350.pbs.ER` without the array job. Test cases can be found in the repository's `example` folder.
+
 ## Usage
 Running the script without input arguments `bash ErrLog.sh` will search for all `*.ER` files in the current directory (and subfolders), and export these to the default file `LogFile.csv` in the current directory.
 
