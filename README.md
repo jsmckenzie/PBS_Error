@@ -2,7 +2,7 @@
 
 # PBS Error 🚨
 
-[![CI](https://github.com/jsmckenzie/PBS_Error/actions/workflows/CI.yml/badge.svg)](https://github.com/jsmckenzie/PBS_Error/actions/workflows/CI.yml)
+[![CI](https://github.com/jsmckenzie/PBS_Error/actions/workflows/CI.yml/badge.svg?event=workflow_dispatch)](https://github.com/jsmckenzie/PBS_Error/actions/workflows/CI.yml)
 
 PBS array jobs create multiple `.ER` files on failure. So rather than opening each individually, this script creates a single CSV from all or some of these files making it easier to see all of the error messages.
 
